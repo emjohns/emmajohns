@@ -203,14 +203,14 @@ export default {
     color: #fff;
     font-size: 4rem;
     font-weight: 700;
-    text-shadow: 0px 3px 6px rgba(4, 50, 105, .3);
+    text-shadow: 0px 3px 6px rgba(4, 50, 105, .4);
   }
   .home-main .top-top h3 {
     color: #fff;
     font-size: 2rem;
     font-weight: 300;
     text-transform: uppercase;
-    text-shadow: 0px 3px 6px rgba(4, 50, 105, .3);
+    text-shadow: 0px 3px 6px rgba(4, 50, 105, .6);
   }
   .home-main .top-top .enter-quote {
     padding-top: 30%;
@@ -219,7 +219,7 @@ export default {
     color: #fff;
     font-size: 26px;
     font-weight: 500;
-    text-shadow: 0px 3px 6px rgba(4, 50, 105, .3);
+    text-shadow: 0px 3px 6px rgba(4, 50, 105, .4);
     opacity: 0;
     text-align: right;
     display: block;
@@ -449,6 +449,9 @@ export default {
     .home-main .top-top h1 {
       font-size: 3rem;
       line-height: 1;
+    }
+    .home-main .top-top h3 {
+      text-shadow: 0px 3px 6px rgba(4, 50, 105, .5);
     }
     .home-main .top-top .row {
       height: 425px;
