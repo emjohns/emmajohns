@@ -261,6 +261,9 @@ export default {
   .home-main .main-secondary-examples a:hover, .home-main .main-primary-examples a:hover {
     transform: translateY(-5px);
   }
+  .main-primary-examples {
+    overflow: hidden;
+  }
   .home-main .example {
     position: relative;
     font-size: 16px;
